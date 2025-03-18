@@ -3,10 +3,66 @@
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
+    font-variation-settings: "wdth" 100;
   }
 
 header, footer, .hero {
-    background-color: #1f2937;
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+}
+.header_links {
+    display: flex;
+}
+
+.forest_image {
+    width: 500px;
+    height: 250px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero_main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero_secondary, .header_links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button, .action {
+    background-color: #3882F6;
+}
+
+.info_head {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.img {
+    border-radius: 8px;
 }
