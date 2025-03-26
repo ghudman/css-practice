@@ -119,40 +119,29 @@ button, .action {
 }
 
 .img {
-    border-radius: 8px;
+    border-radius: 10px;
     border-color: #3882F6;
-    border-width: 4px;
+    border-width: 3.5px;
     border-style: solid;
-    height: 170px;
-    margin: 20px;
-    align-items: center;
+    height: 165px;
+    margin: 23px;
 }
 
 .imgsub {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 140px;
+    display: flex;
+    justify-content: center;
 }
 
-.sub1 {
-    order: 5;
-    width: 25px;
+.subtxt {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
 }
 
-.sub2 {
-    order: 6;
-    width: 25px;
-}
-
-.sub3 {
-    order: 7;
-    width: 25px;
-}
-
-.sub4 {
-    order: 8;
-    width: 25px;
+.sb {
+    width: 150px;
+    margin: 35px;
+    text-align: center;
 }
 
 .quote {
