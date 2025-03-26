@@ -19,7 +19,7 @@ header {
 }
 .header_links {
     display: flex;
-    margin-left: 395px;
+    margin-left: 400px;
     margin-top: 25px;
 }
 
@@ -34,8 +34,10 @@ a {
 }
 
 .forest_image {
-    width: 500px;
-    height: 250px;
+    width: 800px;
+    height: 235px;
+    margin-top: 120px;
+    margin-right: 210px;
 }
 
 .hero {
@@ -54,6 +56,27 @@ a {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 350px;
+    margin-left: 110px;
+    margin-top: -20px;
+}
+
+.hero_secondary {
+    margin-left: 110px;
+    margin-top: -37px;
+    width: 450px;
+    padding-right: 50px;
+}
+
+.b1 {
+    width: 130px;
+    height: 38px;
+    margin-left: 110px;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
 }
 
 .hero_secondary, .header_links {
@@ -76,6 +99,8 @@ button, .action {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .quote {
@@ -89,6 +114,47 @@ button, .action {
     color: #1f2937;
 }
 
+.info {
+    height: 430px;
+}
+
 .img {
     border-radius: 8px;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid;
+    height: 170px;
+    margin: 20px;
+    align-items: center;
+}
+
+.imgsub {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 140px;
+}
+
+.sub1 {
+    order: 5;
+    width: 25px;
+}
+
+.sub2 {
+    order: 6;
+    width: 25px;
+}
+
+.sub3 {
+    order: 7;
+    width: 25px;
+}
+
+.sub4 {
+    order: 8;
+    width: 25px;
+}
+
+.quote {
+    height: 500px;
 }
