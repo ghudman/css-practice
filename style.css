@@ -167,13 +167,51 @@ button, .action {
 
 .action {
     display: flex;
-    height: 125px;
-    width: px;
+    flex-wrap: nowrap;
+    height: 150px;
+    width: 1020px;
     border-radius: 12px;
-    margin: 125px;
+    margin: 105px;
+    margin-left: 200px;
+    color: #E5E7EB;
+}
+
+.bsign {
+    height: 38px;
+    width: 130px;
+    border-radius: 8px;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 210px;
+    margin-top: 60px;
+}
+
+.paction {
+    order: 3;
+    margin-left: 125px;
+    margin-top: -16px;
+}
+
+.call2 {
+    margin-left: 125px;
+    margin-top: 50px;
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     height: 100px;
     margin-bottom: -100px;
+    color: #E5E7EB;
+    font-size: 9px;
+}
+
+.footertext {
+    margin-top: 40px;
+    text-decoration: none;
+    font-weight: lighter;
+    margin-left: 50px;
 }
