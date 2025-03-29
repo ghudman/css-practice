@@ -145,5 +145,35 @@ button, .action {
 }
 
 .quote {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 430px;
+    margin-inline: -10px;
+}
+
+.quote_text {
+    width: 830px;
+    margin-left: 340px;
+    margin-top: 45px;
+}
+
+.author {
+    margin-left: 870px;
+    margin-top: -25px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.action {
+    display: flex;
+    height: 125px;
+    width: px;
+    border-radius: 12px;
+    margin: 125px;
+}
+
+footer {
+    height: 100px;
+    margin-bottom: -100px;
 }
